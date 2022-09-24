@@ -1,0 +1,86 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Playfair+Display&family=Quicksand:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .header {
+    background-image: linear-gradient(to right, rgb(91, 122, 153) ,  rgb(124, 82, 109), rgb(128, 93, 131));
+    padding:15px;
+    text-align:center;
+  }
+  
+
+  .tec, .dp, .f, .ex, .cur, .id, .prac, .ap, .con{
+    font-family: 'Bitter', serif;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .col-8, .name {
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+
+  .container-cv{
+    overflow:auto;
+    margin: 40px;
+    background-color: whitesmoke;
+  }
+  .menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+  }
+  
+  /* .menu a {
+    background-color: blue;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+    border: 7px;
+  } */
+  
+  .con{
+    margin-top: 130px;
+    padding-bottom: 450px;
+  }
+
+  #info{
+    margin-top: 10px;
+  }
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+  }
+  
+  .right {
+    background-image: linear-gradient(to bottom, rgb(91, 122, 153) ,  rgb(124, 82, 109), rgb(128, 93, 131));
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+  }
+
+  .footer {
+    background-image: linear-gradient(to right, rgb(91, 122, 153) ,  rgb(124, 82, 109), rgb(128, 93, 131));
+    padding:15px;
+    text-align:center;
+  }
+
+  @media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
